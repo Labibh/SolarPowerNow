@@ -91,7 +91,8 @@ footer {
 
 .container-main {
     margin: 0 auto;
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
 }
 
 .hero-section {
@@ -137,13 +138,17 @@ footer {
 
 .section-two-content,
 .section-three-content {
-    width: 393px;
-    height: 400px;
     display: grid;
     grid-template-columns: 1fr;
     padding: 30px;
     background-color: var(--simple-white);
     border-radius: 0 0 0 20px;
+}
+
+.section-two-content {
+    width: 393px;
+    min-width: 320px;
+    height: 400px;
 }
 
 .section-two-content > *,
