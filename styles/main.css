@@ -97,7 +97,7 @@ footer {
 .hero-section {
     height: 690px;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(40, 57, 66, 0) 54.17%, #051923 100%),
-    url("/images/home/hero-bg_image_solar_panels.jpg");
+    url("../images/home/hero-bg_image_solar_panels.jpg");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -167,7 +167,7 @@ footer {
 .section-two-image {
     width: 747px;
     height: 400px;
-    background-image: url("/images/home/section_two_image_solar_conc.jpg");
+    background-image: url("../images/home/section_two_image_solar_conc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 20px 0 0;
@@ -195,7 +195,7 @@ footer {
 .section-three-image {
     width: 415px;
     height: 480px;
-    background-image: url("/images/home/section-three_guy_holding_panel.jpg");
+    background-image: url("../images/home/section-three_guy_holding_panel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 20px 0 0;
@@ -205,7 +205,7 @@ footer {
     justify-self: end;
     width: 415px;
     height: 415px;
-    background-image: url("/images/home/section_three_map.png"),
+    background-image: url("../images/home/section_three_map.png"),
     linear-gradient(180deg, #F4FBFF 0%, rgba(244, 251, 255, 0.157906) 76.56%, rgba(244, 251, 255, 0) 92.77%);
     background-position: center;
     background-size: cover;
@@ -235,7 +235,7 @@ footer {
     height: 500px;
     padding: 40px;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(40, 57, 66, 0) 54.17%, #051923 100%),
-    url("/images/home/section_four_solar_array.png");
+    url("../images/home/section_four_solar_array.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
