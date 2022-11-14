@@ -1,0 +1,71 @@
+.page-heading {
+    margin: 42px auto;
+    width: 1200px;
+    height: 256px;
+    background-image: linear-gradient(89.86deg, rgba(0, 0, 0, 0.59) 25.94%, rgba(255, 255, 255, 0) 99.88%),
+    url("../images/news/news_page_heading.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 70%;
+}
+
+.page-heading-scrim {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 120px;
+    top: 92px;
+    width: 240px;
+    height: 72px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 15px 0;
+}
+
+.page-heading-scrim > h1 {
+    font-family: var(--font-family-Comfortaa);
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: 192px 1fr;
+    margin: 0 auto 42px;
+    width: 1200px;
+    height: 192px;
+    background-color: var(--text-bg-gray);
+}
+
+.news-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid var(--simple-black);
+}
+
+#news-logo-1 {
+    background-image: url("../images/news/Euronews._logo.png");
+}
+
+#news-logo-2 {
+    background-image: url("../images/news/globalnews_logo.png");
+}
+
+#news-logo-3 {
+    background-image: url("../images/news/Science-Daily-logo.jpg");
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: var(--font-family-Raleway);
+}
+
+.news-content > h2 {
+    font-size: 26px;
+}
+
+.excerpt {
+    font-size: 20px;
+}

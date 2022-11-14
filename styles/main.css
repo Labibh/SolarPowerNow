@@ -8,6 +8,8 @@
     --medium-blue: #003554;
     --light-blue-1: #00A6fb;
     --simple-white: #ffffff;
+    --simple-black: #000000;
+    --text-bg-gray: #f1f1f1;
 }
 
 * {
@@ -44,13 +46,13 @@ footer {
     width: 270px;
 }
 
-.nav-logo > img {
+.nav-logo > a > img {
     margin: 15px;
     width: 54px;
     height: auto;
 }
 
-.nav-logo > span {
+.nav-logo > a > span {
     font-family: var(--font-family-Comfortaa);
     font-size: 24px;
     color: var(--simple-white);
@@ -93,195 +95,6 @@ footer {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
-}
-
-.hero-section {
-    height: 690px;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(40, 57, 66, 0) 54.17%, #051923 100%),
-    url("../images/home/hero-bg_image_solar_panels.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.hero-section-content {
-    position: relative;
-    width: 580px;
-    height: 200px;
-    left: 214px;
-    top: 154px;
-    background: rgba(255, 255, 255, 0.90);
-    border-radius: 20px 0 20px 0;
-}
-
-.hero-section-content > * {
-    font-family: var(--font-family-Comfortaa);
-}
-
-.hero-section-content > h1 {
-    padding: 26px 15px 15px 15px;
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.hero-section-content > p {
-    padding: 0 15px 0 15px;
-    font-size: 24px;
-}
-
-.section-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    background-color: var(--darkest-blue);
-}
-
-.section-two-content,
-.section-three-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 30px;
-    background-color: var(--simple-white);
-    border-radius: 0 0 0 20px;
-}
-
-.section-two-content {
-    width: 393px;
-    min-width: 320px;
-    height: 400px;
-}
-
-.section-two-content > *,
-.section-three-content > * {
-    font-family: var(--font-family-Comfortaa);
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.section-two-content > h2,
-.section-three-content > h2 {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.section-two-content > a,
-.section-three-content > a {
-    align-self: end;
-}
-
-.section-two-image {
-    width: 747px;
-    height: 400px;
-    background-image: url("../images/home/section_two_image_solar_conc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0 20px 0 0;
-}
-
-.section-three {
-    padding: 0 260px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    background-color: var(--medium-blue);
-}
-
-.section-three-left {
-    display: flex;
-}
-
-.section-three-content {
-    width: 320px;
-    height: 480px;
-}
-
-.section-three-image {
-    width: 415px;
-    height: 480px;
-    background-image: url("../images/home/section-three_guy_holding_panel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0 20px 0 0;
-}
-
-.section-three-map {
-    justify-self: end;
-    width: 415px;
-    height: 415px;
-    background-image: url("../images/home/section_three_map.png"),
-    linear-gradient(180deg, #F4FBFF 0%, rgba(244, 251, 255, 0.157906) 76.56%, rgba(244, 251, 255, 0) 92.77%);
-    background-position: center;
-    background-size: cover;
-    border: 7px solid #FFFFFF;
-}
-
-.section-three-map > a{
-    position: relative;
-    top: 329px;
-    left: 103px;
-    padding: 15px 32px 15px 32px;
-    height: 48px;
-    background: rgba(255, 255, 255, 0.88);
-    border: 4px solid #FFFFFF;
-    border-radius: 10px;
-    font-family: var(--font-family-Comfortaa);
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
-    color: var(--darkest-blue);
-}
-
-.section-four {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 500px;
-    padding: 40px;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(40, 57, 66, 0) 54.17%, #051923 100%),
-    url("../images/home/section_four_solar_array.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.section-four-heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 468px;
-    height: 88px;
-    background: rgba(255, 255, 255, 0.90);
-    border-radius: 10px 0 10px 0;
-    font-family: var(--font-family-Comfortaa);
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 36px;
-}
-
-.section-four-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 35px;
-    padding: 30px;
-    align-items: center;
-    width: 725px;
-    height: 235px;
-    background: rgba(255, 255, 255, 0.90);
-}
-
-.section-four-content > * {
-    font-family: var(--font-family-Comfortaa);
-    text-align: center;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 25px;
-}
-
-.section-four-content > a {
-    padding-top: 20px;
-    font-size: 28px;
 }
 
 footer {
