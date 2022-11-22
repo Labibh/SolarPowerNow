@@ -1,0 +1,109 @@
+body {
+    background-color: var(--darkest-blue);
+}
+
+.page-hero {
+    margin: 42px auto;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    font-family: var(--font-family-Comfortaa);
+}
+.page-main-hero {
+    height: 256px;
+    background-image: linear-gradient(89.86deg, rgba(0, 0, 0, 0.59) 25.94%, rgba(255, 255, 255, 0) 99.88%),
+    url("../images/learn/learn_page_heading.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
+}
+
+.page-hero-scrim {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 120px;
+    top: 92px;
+    width: 350px;
+    height: 72px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 15px 0;
+}
+
+.page-hero-scrim > h1 {
+}
+
+.page-sub-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    background-color: var(--simple-white);
+    border-radius: 0 0 15px 15px;
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 40px auto;
+    width: 1200px;
+}
+
+.learn-section {
+    background-color: var(--simple-white);
+    border-radius: 15px 0;
+}
+
+.learn-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 15px 0 0 0;
+}
+
+#article-img-1 {
+    background-image: url("../images/learn/article_image_1.jpg");
+}
+
+#article-img-2 {
+    background-image: url("../images/learn/article_image_2.jpg");
+}
+
+#article-img-3 {
+    background-image: url("../images/learn/article_image_3.jpg");
+}
+
+#article-img-4 {
+    background-image: url("../images/learn/article_image_2.jpg");
+}
+
+#article-img-5 {
+    background-image: url("../images/learn/article_image_3.jpg");
+}
+
+#article-img-6 {
+    background-image: url("../images/learn/article_image_1.jpg");
+}
+
+.learn-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+    padding: 25px;
+    font-family: var(--font-family-Raleway);
+
+}
+
+.learn-content > h2 {
+    text-align: center;
+}
+
+.excerpt {
+    text-align: center;
+    font-size: 18px;
+}

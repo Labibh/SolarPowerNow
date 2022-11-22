@@ -46,6 +46,10 @@ footer {
     width: 270px;
 }
 
+.nav-logo > a {
+    text-decoration: none;
+}
+
 .nav-logo > a > img {
     margin: 15px;
     width: 54px;
