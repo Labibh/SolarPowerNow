@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: 1920px;
+    /*height: 100vh;*/
+    margin: auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(40, 57, 66, 0) 68.75%, #051923 100%),
+url("../images/dashboard/dashboard_hero.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero-section-content {
+    width: 660px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 20px 0 20px 0;
+}
+
+.hero-section-content > * {
+    font-family: var(--font-family-Comfortaa);
+}
+
+.hero-section-content > h1 {
+    padding: 26px 15px 15px 15px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero-section-content > p {
+    padding: 0 15px 0 15px;
+    font-size: 24px;
+}

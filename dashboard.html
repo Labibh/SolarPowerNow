@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SolarPowerNow | News</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="library/svgMap/svgMap.css">
+    <script src="library/svgMap/svgMap.js"></script>
+</head>
+<body>
+<header id="header"></header>
+<div class="wrapper">
+    <section class="hero-section">
+        <div class="hero-section-content">
+            <h1>Worldwide Solar Power Adoption</h1>
+            <p>Hover over countries to view their Solar Power capacity, Solar Power growth and other key
+                statistics. </p>
+        </div>
+    </section>
+    <div id="svgMapGPD"></div>
+    <script src="./scripts/dashboard.js"></script>
+    <script>
+        new svgMap({
+            targetElementID: 'svgMapGPD',
+            data: svgMapDataGPD,
+            mouseWheelZoomEnabled: false,
+            mouseWheelZoomWithKey: true
+        });
+    </script>
+    <div class="bottom-spacing"></div>
+    <footer id="footer"></footer>
+</div>
+<script src="./scripts/headerAndFooter.js"></script>
+</body>
+</html>
