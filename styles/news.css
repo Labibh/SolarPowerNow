@@ -54,6 +54,18 @@
     background-image: url("../images/news/Science-Daily-logo.jpg");
 }
 
+#news-logo-4 {
+    background-image: url("../images/news/Euronews._logo.png");
+}
+
+#news-logo-5 {
+    background-image: url("../images/news/globalnews_logo.png");
+}
+
+#news-logo-6 {
+    background-image: url("../images/news/Science-Daily-logo.jpg");
+}
+
 .news-content {
     display: flex;
     flex-direction: column;

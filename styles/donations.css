@@ -1,0 +1,29 @@
+.hero-section {
+    height: 530px;
+    background-image: url("../images/donations/donations_hero_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 218px;
+    height: 72px;
+    left: 214px;
+    top: 154px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 20px 0 20px 0;
+}
+
+.hero-section-content > * {
+    font-family: var(--font-family-Comfortaa);
+}
+
+.hero-section-content > h1 {
+    font-size: 32px;
+    font-weight: 700;
+}

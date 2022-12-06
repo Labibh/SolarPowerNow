@@ -1,0 +1,145 @@
+.hero-section {
+    height: 530px;
+    background-image: url("../images/contact/contact_hero_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-section-content {
+    position: relative;
+    top: 180px;
+    left: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 74px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 20px 0 20px 0;
+}
+
+.hero-section-content > * {
+    font-family: var(--font-family-Comfortaa);
+}
+
+.hero-section-content > h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.contact-section-main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    width: 1120px;
+    font-family: var(--font-family-Comfortaa);
+}
+
+.contact-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "fname lname"
+        "email email"
+        "message message"
+        "message message"
+        "message message"
+        "submit submit";
+    gap: 15px;
+    padding: 30px 40px 20px 40px;
+    border-radius: 20px 0;
+    background-color: var(--darkest-blue);
+}
+
+.contact-form-grid > h2 {
+    grid-area: header;
+    padding-bottom: 15px;
+    color: var(--simple-white);
+}
+
+.contact-first-name {
+    grid-area: fname;
+}
+
+.contact-last-name {
+    grid-area: lname;
+}
+
+.contact-email {
+    grid-area: email;
+}
+
+.contact-message {
+    grid-area: message;
+}
+
+#message {
+    width: 100%;
+}
+
+.form-submit {
+    grid-area: submit;
+}
+
+label {
+    display: block;
+    padding: 6px 0;
+    font-size: 18px;
+    color: var(--simple-white);
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 34px;
+}
+
+.form-submit > input {
+    width: 150px;
+    height: 40px;
+    background-color: var(--light-blue-1);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #1D1D1D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-submit > input:hover {
+    background-color: #00c4ff;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-rows: 1.9fr 1.05fr 1.05fr;
+    row-gap: 15px;
+}
+
+.contact-info-grid > div {
+    background-color: var(--text-bg-gray);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact-info-grid > div > h2 {
+    padding-bottom: 12px;
+}
+
+.address-info > h3 {
+    padding: 10px 0 2px 0;
+}
+
+.contact-info-grid > div > p, address {
+    padding: 6px 0;
+    font-size: 18px;
+    line-height: 24px;
+}

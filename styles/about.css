@@ -1,0 +1,125 @@
+.hero-section {
+    height: 530px;
+    background-image: url("../images/about/about_hero_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-section-content {
+    position: relative;
+    top: 180px;
+    left: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 74px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 20px 0 20px 0;
+}
+
+.hero-section-content > * {
+    font-family: var(--font-family-Comfortaa);
+}
+
+.hero-section-content > h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about-tag-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-tag-grid {
+    position: relative;
+    top: -50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 1000px;
+}
+
+.about-tag-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    background-color: #285688;
+    border-radius: 10px;
+}
+
+.about-tag-grid > div > div {
+    position: relative;
+    top: -90px;
+    width: 180px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.about-tag-grid > div > p {
+    position: relative;
+    bottom: 60px;
+    font-family: var(--font-family-Comfortaa);
+    font-size: 28px;
+    text-align: center;
+    color: var(--simple-white);
+}
+
+#tag-img-1 {
+    background-image: url("../images/about/tag-1.jpg");
+}
+
+#tag-img-2 {
+    background-image: url("../images/about/tag-2.jpg");
+}
+
+#tag-img-3 {
+    background-image: url("../images/about/tag-3.jpg");
+}
+
+.about-content-section {
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-grid {
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    width: 1120px;
+}
+
+.about-content-text {
+    font-family: var(--font-family-Comfortaa);
+    padding: 40px;
+    width: 640px;
+    height: 390px;
+    background-color: var(--text-bg-gray);
+    border-radius: 15px;
+}
+
+.about-content-text > h2 {
+    font-size: 32px;
+}
+
+.about-content-text > p {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.about-content-img {
+    width: 100%;
+    height: 390px;
+    background-image: url("../images/about/about_content_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
