@@ -6,9 +6,12 @@
     --font-family-Raleway: 'Raleway', sans-serif;
     --darkest-blue: #051923;
     --medium-blue: #003554;
+    --form-blue: #0582CA;
+    --dark-yellow: #fdc500;
+    --hover-yellow: #ffd500;
     --light-blue-1: #00A6fb;
     --simple-white: #ffffff;
-    --simple-black: #000000;
+    --simple-black: #9b9b9b;
     --text-bg-gray: #f1f1f1;
 }
 
@@ -83,16 +86,18 @@ footer {
 }
 
 .nav-link-donate {
-    background-color: var(--light-blue-1);
-    color: white;
+    background-color: var(--dark-yellow);
+    color: var(--darkest-blue);
     margin: 0 10px;
-    padding: 15px 32px;
+    padding: 14px 30px;
     font-size: 22px;
     font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid var(--simple-white);
 }
 
 .nav-link-donate:hover {
-    background-color: #00c4ff;
+    background-color: var(--hover-yellow);
 }
 
 .container-main {

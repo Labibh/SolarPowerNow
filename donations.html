@@ -8,6 +8,9 @@
     <title>SolarPowerNow | Learn</title>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
             integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/donations.css">
 </head>
@@ -20,9 +23,85 @@
                 <h1>Donations</h1>
             </div>
         </section>
+        <section class="donation-section">
+            <div class="donation-main-grid">
+                <div class="donation-heading-choose">
+                    <h2>Choose Charity Organization</h2>
+                </div>
+                <div class="donation-form">
+                    <div class="donate-amount-input-group">
+                        <label for="donate-amount-input">$</label>
+                        <input type="number" id="donate-amount-input" required>
+                    </div>
+                    <div class="donate-amount-button-group">
+                        <div class="donate-amount-button">
+                            <input type="button" value="20.00 $" data-value="20.00">
+                        </div>
+                        <div class="donate-amount-button">
+                            <input type="button" value="50.00 $" data-value="50.00">
+                        </div>
+                        <div class="donate-amount-button">
+                            <input type="button" value="100.00 $" data-value="100.00">
+                        </div>
+                        <div class="donate-amount-button">
+                            <input type="button" value="Custom"  data-value="0">
+                        </div>
+                    </div>
+                    <hr class="hr1">
+                    <h3 class="h31">Select Payment Method</h3>
+                    <div class="payment-method-group">
+                        <div>
+                            <input type="radio" id="radio-CC" name="payment-method" value="Credit Card" >
+                            <label for="radio-CC">Credit Card</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio-paypal" name="payment-method" value="PayPal" checked>
+                            <label for="radio-paypal">PayPal</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio-e-transfer" name="payment-method" value="E-Transfer">
+                            <label for="radio-e-transfer">E-Transfer</label>
+                        </div>
+                    </div>
+                    <hr class="hr2">
+                    <h3 class="h32">Personal Info</h3>
+                    <div class="payment-first-name">
+                        <label for="payment-first-name-input">First Name</label>
+                        <input type="text" id="payment-first-name-input" required>
+                    </div>
+                    <div class="payment-last-name">
+                        <label for="payment-last-name-input">Last Name</label>
+                        <input type="text" id="payment-last-name-input" required>
+                    </div>
+                    <div class="payment-email">
+                        <label for="payment-email-input">Email Address</label>
+                        <input type="text" id="payment-email-input" required>
+                    </div>
+                    <hr class="hr3">
+                    <h3 class="h33">Paying with <span id="paymentTypeText">PayPal</span></h3>
+                    <h4 class="h41">Payments processed on external site.</h4>
+                    <div class="form-submit">
+                        <input type="submit" value="Donate Now">
+                    </div>
+                </div>
+                <div class="donation-org donation-org-1" tabindex="0">
+                    <h3>Electrify Bangladesh</h3>
+                </div>
+                <div class="donation-org donation-org-2" tabindex="0">
+                    <h3>LightUp Africa</h3>
+                </div>
+                <div class="donation-org donation-org-3" tabindex="0">
+                    <h3>Researching Solar</h3>
+                </div>
+                <div class="donation-org donation-org-4" tabindex="0">
+                    <h3>Spreading Solar</h3>
+                </div>
+            </div>
+        </section>
     </div>
 </main>
 <footer id="footer"></footer>
 <script src="./scripts/headerAndFooter.js"></script>
+<script src="./scripts/donations.js"></script>
 </body>
 </html>
